@@ -32,5 +32,13 @@ A reponsive, single-page React web app, featuring a virtualized infinite scroll 
 
 ## Live Demo
 Check out the live demo at <https://catchemall.mikethai.dev>
+
+## Hardware controls
+
+The lower control deck can be used with a pointer or keyboard. The D-pad's up and
+down buttons move the list by one Pokémon, while left and right move by one screen.
+The two small action buttons also move by one screen, and the large blue action
+button returns to the first Pokémon. Tab to any control and press **Enter** or
+**Space** to activate it; a visible focus ring identifies the selected control.
 ***
 *Thanks to [pokeapi.co](pokeapi.co) for providing the free Pokemon data API.*
