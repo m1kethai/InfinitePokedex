@@ -307,6 +307,7 @@
         background: linear-gradient( #ead046, #a98708 );
         box-shadow: inset 0 0.35rem 0.35rem rgba( white, 0.45 ), 0 0.45rem 0 #665005;
 
+        &:active { box-shadow: inset 0 4px 7px rgba( 0, 0, 0, 0.65 ); }
         &:last-child { background: linear-gradient( #69bf78, #24773b ); }
       }
     }
