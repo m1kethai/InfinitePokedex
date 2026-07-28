@@ -82,7 +82,22 @@ const Pokedex = ({ clearCache }) => {
       <div
         className='lights--big'
         role='status'
-        aria-label={ `Pokédex data status: ${error ? 'error' : isLoading ? 'loading' : 'ready'}` }>
+        aria-live='polite'
+        aria-atomic='true'>
+        <span
+          style={{
+            position: 'absolute',
+            width: '1px',
+            height: '1px',
+            padding: 0,
+            margin: '-1px',
+            overflow: 'hidden',
+            clip: 'rect(0, 0, 0, 0)',
+            whiteSpace: 'nowrap',
+            border: 0
+          }}>
+          { `Pokédex data status: ${error ? 'error' : isLoading ? 'loading' : 'ready'}` }
+        </span>
         <span className='lamp-glass' aria-hidden='true'>
           <span className='lamp-highlight'/>
         </span>
